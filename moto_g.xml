@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="xc-racer99/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="android-5.1" />
+  <project name="android_hardware_qcom_display-caf-bfam" path="hardware/qcom/display-caf-bfam" remote="omnirom" revision="android-5.1" />
+  <project name="android_hardware_qcom_media-caf-bfam" path="hardware/qcom/media-caf-bfam" remote="omnirom" revision="android-5.1" />
+  <project name="android_hardware_qcom_audio-caf-bfam" path="hardware/qcom/audio-caf-bfam" remote="omnirom" revision="android-5.1" />
+  <project name="android_frameworks_av" path="frameworks/av-caf" remote="omnirom" revision="android-5.1-caf" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="omnirom" revision="android-5.1" />
+  <project name="xc-racer99/android_system_qcom" path="system/qcom" remote="github" revision="android-5.1" />
+  <project name="xc-racer99/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="android-5.1" />
+  <project name="xc-racer99/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="android-5.1" />
+  <project name="xc-racer99/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="android-5.1" />
+  <project name="ant-wireless/Android_build" path="external/ant-wireless/build" remote="github" revision="master" />
+  <project name="ant-wireless/Android_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="master" />
+  <project name="ant-wireless/Linux_ant-hal" path="external/ant-wireless/ant-hal" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTHALService" path="external/ant-wireless/ANTHALService" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTRadioService" path="external/ant-wireless/ANTRadioService" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTPlusPluginsService" path="external/ant-wireless/Android_ANTPlusPluginsService" remote="github" revision="master" />
+</manifest>
