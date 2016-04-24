@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Specific Repos -->
+  <project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="omnirom" revision="android-6.0" />
+  <remove-project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="omnirom" revision="android-6.0" />
+  <project name="xc-racer99/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="android-6.0" />
+
+  <!-- ANT+ Dependencies -->
+  <project name="ant-wireless/Android_build" path="external/ant-wireless/build" remote="github" revision="master" />
+  <project name="ant-wireless/Android_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="master" />
+  <project name="ant-wireless/Linux_ant-hal" path="external/ant-wireless/ant-hal" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTHALService" path="external/ant-wireless/ANTHALService" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTRadioService" path="external/ant-wireless/ANTRadioService" remote="github" revision="master" />
+  <project name="ant-wireless/Android_ANTPlusPluginsService" path="external/ant-wireless/Android_ANTPlusPluginsService" remote="github" revision="master" />
+
+  <!-- QCOM Dependencies -->
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-13.0" />
+  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-6.0" />
+  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-6.0" />
+  <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-6.0" />
+  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-6.0" />
+  <project name="android_frameworks_av" path="frameworks/av-caf" remote="omnirom" revision="android-6.0-caf" />
+  <project name="android_frameworks_native" path="frameworks/native-caf" remote="omnirom" revision="android-6.0-caf" />
+  <project name="android_hardware_ril" path="hardware/ril-caf" remote="omnirom" revision="android-6.0-caf" />
+  <project name="xc-racer99/android_system_qcom" path="system/qcom" remote="github" revision="android-6.0" />
+  <project name="vendor_qcom_opensource_display-frameworks" path="vendor/qcom/opensource/display-frameworks" remote="omnirom" revision="android-6.0" />
+  <project name="xc-racer99/android_external_connectivity" path="external/connectivity" remote="github" revision="android-6.0" />
+
+  <!-- Vendor Blobs -->
+  <project name="xc-racer99/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="android-6.0" />
+</manifest>
