@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Vendor Blobs -->
+  <project name="xc-racer99/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-6.0" />
+
+  <!-- Device Trees -->
+  <project name="xc-racer99/android_device_samsung_telusgalaxys4gmtd" path="device/samsung/telusgalaxys4gmtd" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_device_samsung_telusgalaxys4gmtd" path="device/samsung/galaxys4gmtd" remote="github" revision="android-6.0-t959v" />
+  <project name="xc-racer99/android_device_samsung_fascinatemtd" path="device/samsung/fascinatemtd" remote="github" revision="android-6.0"/>
+  <project name="android_device_samsung_captivatemtd" path="device/samsung/captivatemtd" remote="omnirom" revision="android-6.0" />
+  <remove-project name="android_device_samsung_captivatemtd" path="device/samsung/captivatemtd" remote="omnirom" revision="android-6.0" />
+  <project name="xc-racer99/android_device_samsung_captivatemtd" path="device/samsung/captivatemtd" remote="github" revision="android-6.0" />
+
+  <!-- Galaxy S Common Repos -->
+  <project name="xc-racer99/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_hardware_samsung" path="hardware/samsung" remote="github" revision="android-6.0" />
+
+  <!-- Kernel Repo -->
+  <project name="xc-racer99/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="android-6.0" />
+
+  <!-- Misc Other Projects -->
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="cm-13.0" />
+</manifest>
