@@ -4,7 +4,7 @@
            fetch="https://github.com/" />
 
   <!-- Use the vendor blobs repo as the extract-files.sh script is outdated -->
-  <project name="xc-racer99/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-6.0" clone-depth="1"/>
 
   <!-- Fetch device trees -->
   <project name="xc-racer99/android_device_samsung_telusgalaxys4gmtd" path="device/samsung/telusgalaxys4gmtd" remote="github" revision="aosp-6.0" />
