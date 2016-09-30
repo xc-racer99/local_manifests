@@ -23,4 +23,7 @@
 
   <!-- Misc Other Projects -->
   <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="cm-13.0" />
+
+  <!-- Patches -->
+  <project name="xc-racer99/android_patches" path="patches" remote="github" revision="aosp-7.0" />
 </manifest>
