@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Music doesn't work anyways -->
+  <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+
+  <!-- Browser2 is just a webkit test, so use the old Browser -->
+  <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="marshmallow-mr2-release" />
+
+</manifest>
