@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.0" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" />
 
-  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-7.0" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-7.1" />
 </manifest>
