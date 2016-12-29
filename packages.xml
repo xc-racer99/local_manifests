@@ -9,4 +9,8 @@
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="marshmallow-mr2-release" />
 
+  <!-- 7.1 webview doesn't work on our device, use 7.0's instead -->
+  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="044bb9ec8441367b85f7050e70894737dd047f52" />
+
 </manifest>
