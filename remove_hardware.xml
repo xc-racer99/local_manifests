@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
+  <!--remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <remove-project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" /-->
+  <remove-project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" groups="pdk" />
+  <remove-project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+  <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" />
+  <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" />
+  <remove-project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" />
+  <remove-project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" />
+  <remove-project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" />
+  <remove-project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" />
+  <remove-project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,pdk" />
+  <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
+  <!--remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" /-->
+  <remove-project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
+  <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
+  <remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
+  <remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
+  <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
+  <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
+  <remove-project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
+  <remove-project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
+  <remove-project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk" />
+  <remove-project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" />
+  <remove-project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" />
+  <remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
+  <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
+  <!--remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" /-->
+  <remove-project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
+  <remove-project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
+  <remove-project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
+</manifest>
