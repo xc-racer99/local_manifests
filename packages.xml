@@ -5,9 +5,8 @@
   <!-- Camera2 doesn't work on our device -->
   <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
 
-  <!-- Browser2 is just a webkit test, so use the old Browser -->
+  <!-- Browser2 is just a webkit test -->
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="marshmallow-mr2-release" />
 
   <!-- 7.1 webview doesn't work on our device, use 7.0's instead -->
   <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
