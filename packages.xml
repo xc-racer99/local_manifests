@@ -12,4 +12,8 @@
   <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="044bb9ec8441367b85f7050e70894737dd047f52" />
 
+  <!-- system/bt stops working with non-LE devices after some security patches -->
+  <remove-project path="system/bt" name="platform/system/bt" />
+  <project path="system/bt" name="platform/system/bt" revision="699c01a12eec65e768fc6d41f4913ad6f1529b34" />
+
 </manifest>
