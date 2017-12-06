@@ -2,7 +2,7 @@
 <manifest>
   <remove-project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk,pdk" />
   <remove-project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk,pdk" clone-depth="1" />
-  <remove-project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
+  <!--remove-project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" /-->
   <remove-project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
