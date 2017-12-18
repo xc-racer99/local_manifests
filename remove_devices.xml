@@ -6,7 +6,7 @@
   <remove-project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <remove-project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <!--remove-project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /-->
   <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <remove-project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <remove-project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" />
