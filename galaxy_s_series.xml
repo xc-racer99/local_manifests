@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="xc-racer99"
+           fetch="https://github.com/xc-racer99" />
+  <remote  name="kernel_org"
+           fetch="git://git.kernel.org/pub/scm/" />
+
+  <!-- Vendor Blobs -->
+  <remove-project name="Unlegacy-Android/proprietary_vendor_samsung" path="vendor/samsung" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="xc-racer99" revision="unlegacy-4.4" clone-depth="1" />
+
+  <!-- Device Trees -->
+  <project name="android_device_samsung_telusgalaxys4gmtd" path="device/samsung/telusgalaxys4gmtd" remote="xc-racer99" revision="unlegacy-4.4" />
+
+  <!-- Kernel Repo -->
+  <project name="android_kernel_samsung_aries" path="kernel/samsung/aries" remote="xc-racer99" revision="unlegacy-4.4" />
+
+  <!-- Common Repos -->
+  <project name="android_device_samsung_aries-common" path="device/samsung/aries-common" remote="xc-racer99" revision="unlegacy-4.4" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="unlegacy" revision="unlegacy-4.4" />
+
+</manifest>
