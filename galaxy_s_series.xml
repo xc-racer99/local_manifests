@@ -4,6 +4,8 @@
            fetch="https://github.com/xc-racer99" />
   <remote  name="kernel_org"
            fetch="git://git.kernel.org/pub/scm/" />
+  <remote name="replicant"
+           fetch="https://git.replicant.us/replicant/" />
 
   <!-- Vendor Blobs -->
   <remove-project name="Unlegacy-Android/proprietary_vendor_samsung" path="vendor/samsung" />
@@ -17,6 +19,11 @@
 
   <!-- Common Repos -->
   <project name="android_device_samsung_aries-common" path="device/samsung/aries-common" remote="xc-racer99" revision="unlegacy-4.4" />
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="unlegacy" revision="unlegacy-4.4" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="xc-racer99" revision="unlegacy-4.4" />
+  <project name="android_packages_apps_SamsungServiceMode" path="apps/SamsungServiceMode" remote="xc-racer99" revision="android-4.4" />
+
+  <!-- Replicant RIL -->
+  <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="replicant" revision="replicant-6.0" />
+  <project path="external/libsamsung-ipc" name="external_libsamsung-ipc.git" remote="replicant" revision="replicant-6.0" />
 
 </manifest>
