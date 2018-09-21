@@ -21,6 +21,7 @@
   <project name="android_device_samsung_aries-common" path="device/samsung/aries-common" remote="xc-racer99" revision="unlegacy-4.4" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="xc-racer99" revision="unlegacy-4.4" />
   <project name="android_packages_apps_SamsungServiceMode" path="apps/SamsungServiceMode" remote="xc-racer99" revision="android-4.4" />
+  <project name="android_external_mtd-utils" path="external/mtd-utils" remote="xc-racer99" revision="2.0.1-android" />
 
   <!-- Replicant RIL -->
   <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="replicant" revision="replicant-6.0" />
